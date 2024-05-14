@@ -66,3 +66,19 @@ button {
 button:hover {
     background-color: #a05c45;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .login-form {
+        padding: 40px; /* Decreased padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 2em; /* Decreased font size for smaller screens */
+    }
+
+    .input-group input,
+    button {
+        padding: 15px; /* Decreased padding for smaller screens */
+    }
+}
